@@ -1,5 +1,7 @@
 # mobileweb
 
+## 1. 本地建仓远程关联
+
 ```sh
 # 本地新建仓库进行远程关联
 
@@ -24,7 +26,7 @@ $ git remote add origin git@github.com:xiaoboliu0602/mobileweb.git
 $ git push -u origin master
 
 ```
-
+## 2. 远程建仓本地克隆
 ```sh
 # 远程新建仓库本地克隆
 
@@ -35,4 +37,12 @@ $ ls
 README.md
 
 ```
+## 3. 解决每次远程提交输密码问题
 
+```sh
+$ git config --global credential.helper store;
+
+$ git push;
+
+根据提示输入一次密码即可
+```
