@@ -6,6 +6,8 @@
         <meta name="description" content="A basic set web page">
         <meta name="autot" content="Bob">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
         <script src="js/jQuery-develop-v1.11.1.js"></script>
 		<script src="js/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"></script>
@@ -13,21 +15,8 @@
         
         <link rel="stylesheet" href="js/jquery.mobile-1.4.5/jquery.mobile-1.4.5.css">
         <link rel="stylesheet" href="css/styles.css">
-        
-        <script>
-            function countDown(){
-                var time = document.getElementById("Time"); // 获取初始时间
 
-                if(time.innerHTML == 0){
-                    // 等于 0 时清除计时，并跳转该指定页面
-                    window.location.href="#page4";
-                }else{
-                    time.innerHTML = time.innerHTML-1;
-                }
-            }
-            // 1000ms 调用一次
-            window.setInterval("countDown()",1000);
-        </script>
+        <link rel="apple-touch-icon-precomposed" href="../img/01.png">
 
         <noscript>抱歉，您的浏览器不支持 JavaScript！</noscript>
     </head>
@@ -71,7 +60,7 @@
         <div data-role="page" id="page3">
             <h2 id="page3-h2-1">剩余时间：</h2>
             <div class="time">
-                <p id="Time">60</p>
+                <p id="time-num">15</p>
                 <sub id="time-s">秒</sub>
             </div>
             
@@ -129,10 +118,22 @@
 <!-- 第七个页面 主页展示（温度、运动图像、联系情况、设置）-->
         <div data-role="page" id="page7">
             <h2 id="page7-h2-1">环境温度：</h2>
+            <div class="temp">
+                <p id="temp-num">25</p>
+                <sub id="temp-c">&#8451</sub>
+            </div>
 
             <h2 id="page7-h2-2">活动状况：</h2>
+            <div class="step">
+                <p id="step-num">525</p>
+                <sub id="step-c">步</sub>
+            </div>
 
             <h2 id="page7-h2-3">最近联系：</h2>
+            <div class="contact">
+                <p id="contact-date">16</p>
+                <sub id="contact-c">日</sub>
+            </div>
         </div>
 
     </body>
