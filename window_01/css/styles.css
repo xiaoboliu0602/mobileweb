@@ -1,0 +1,103 @@
+#page1 {
+    background-color: white;
+    background-image: url('../img/01.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+#page1-h2 {
+    text-align: center;
+    padding-top: 350px;
+}
+
+.page1-btn {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+}
+
+#page2 {
+    background-color: burlywood;
+}
+
+.page2-form {
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+}
+
+#page3 {
+    background-color: burlywood;
+}
+#page3-h2-1 {
+    text-align: center;
+    padding-top: 50px;
+}
+.time {
+    text-align: center;
+    margin-top: 100px;
+}
+#Time {
+    font-size: 100px;
+    display: inline;
+}
+#time-s {
+    font-size: 30px;
+}
+#page3-h2-2 {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#page4 {
+    background-color: burlywood;
+}
+#page4-h2 {
+    text-align: center;
+    padding-top: 350px;
+}
+
+#page5 {
+    background-color: burlywood;
+}
+#page5-h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+.page5-form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+.page5-btn {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+}
+
+#page6 {
+    background-color: burlywood;
+}
+
+#page6-h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+.page6-form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+.page6-btn {
+    margin-top: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+}
+
+#page7 {
+    background-color: burlywood;
+}
